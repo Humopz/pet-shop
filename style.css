@@ -193,10 +193,39 @@ button:hover {
     margin-top: 1%;
     margin-bottom: 3%;
 }
+.prod_title
+{
+    display: flex;
+    justify-content: center;
+}
+.prod_link{
+    display: flex;
+    background-color: #35DE3B;
+    justify-content: center;
+}
+.iconesV
+{
+    display: flex;
+    background-color: #35DE3B;
+    justify-content: center;
+}
+.icones_produtos_V{
+    text-align: center;
+    margin: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
+.imagem_produtos_V{
+    height: 90%;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
-
-
+.imagem_produtos_internos:hover{
+    height: 100%;
+    cursor: pointer;
+}
 
 
 
