@@ -18,7 +18,6 @@
         <ul class="lista_navegacao">
             <li class="item_navegacao"><a href="index.html">Inicio</a></li>
             <li class="item_navegacao"><a href="sobre.html">Sobre nós</a></li>
-            <li class="item_navegacao"><a href="serviços.html">Produtos e serviços</a></li>
             <li class="item_navegacao"><a href="contatos.html">Contato</a></li>
         </ul>
     </nav>
@@ -27,65 +26,34 @@
         <section>
             <div class="texto_imagem_lateralmente">
                 <div class="texto_lateralmente">
-                    <h1>Banho e Tosa</h1>
-                    <h2>Banho</h2>
-                    <p>Somos uma renomada pet shop comprometida em proporcionar o melhor cuidado para o seu companheiro 
-                        de quatro patas. Nosso objetivo é garantir o bem-estar e a felicidade do seu pet em todos os momentos.
-                        Nossa equipe altamente qualificada oferece um atendimento excepcional na clínica, proporcionando 
-                        um ambiente acolhedor para que seu animal de estimação se sinta confortável durante consultas e 
-                        procedimentos veterinários. 
+                    <h1>Banho</h1> 
+                    
+                    <p>Com uma equipe qualificada e preparada para receber seu amigo peludo da melhor forma para um banho refrescante, 
+                      com todo cuidado em relação as caracteristicas unicas unicas de cada pet.
+                      <h1>Tosa</h1> 
+                    <p>
+                      Seu pet limpo e estiloso, fazemos desde de tosa higienica até tosa estetica, com todos os cuidados para uma melhor experiencia ao seu pet.
                     </p>
-                    <p>Priorizamos o cuidado individualizado e afetuoso para cada pet que nos 
-                        visita. Além disso, reconhecendo que o conforto do seu pet é uma prioridade, disponibilizamos um 
-                        serviço de atendimento domiciliar. Essa opção evita o estresse do deslocamento e é conduzida por 
-                        uma equipe profissional altamente capacitada e constantemente atualizada na área veterinária. 
-                        Queremos que seu pet receba a melhor assistência sem sair do ambiente familiar.
-                    </p>
-                    <a href="sobre.html"><button>Conheça a nossa história</button></a>
+                    <h1>Banho com ofurô</h1>
+                    <p>O classico banho, porém desta vez com todo o conforto e diversão de um ofurô para seu pet. Banho terapeutico ideal para aqueles pets que gostam de brincar.</p>
+                    
                 </div>
                 <div class="imagem_lateralmente">
-                    <img src="imagens/sobre.png" alt="Sobre">
+                    <img src="imagens/estetica.webp" alt="Sobre">
                     <!--Image by <a href="https://www.freepik.com/free-photo/veterinarian-
                     check-ing-puppy-s-health_10823365.htm#query=atendente%20pet%20shop&position=34&from_
                     view=search&track=ais&uuid=d81052cc-0573-459a-8f64-e4b91efda0b8">Freepik</a>-->
                 </div>
             </div>
         </section>
-
-        <!--Seção produtos-->
-        <section>
-            <div class="icones">
-                <div class="icones_produtos_interno">
-                    <a href="serviços.html"><img class="imagem_produtos_internos" src="imagens/logo.tosa.png" 
-                        alt="Banho e tosa"></a>
-                    <p>Banho e tosa</p>
-                </div>
-                <div class="icones_produtos_interno">
-                    <a href="serviços.html"><img class="imagem_produtos_internos" src="imagens/logo.banho.png" 
-                        alt="Banho Terapêutico com Ofurô"></a>
-                    <p>Banho Terapêutico com Ofurô</p>
-                </div>
-                <div class="icones_produtos_interno">
-                    <a href="serviços.html"><img class="imagem_produtos_internos" src="imagens/logo.produtos.png" 
-                        alt="Produtos"></a>
-                    <p>Produtos para o seu pet</p>
-                </div>
-            </div>
-        </section>
-
-        <!--Seção contato-->
+       <!--Seção contato-->
         <section>
             <div class="contato">
                 <div class="convite_contato">
-                    <h1 class="h_contato"><strong>Entre em contato conosco ou deixe sua mensagem que 
-                        ligaremos para você</strong></h2>
-                    <p class="paragrafo_contato">
-                        Nosso contato: (11) 3864-7956
-                        Facilita Pet
-                        Rua dos Pets, 123 - Bairro dos Animais
-                        Cidade Petópolis - Estado dos Bichos
-                    </p>
-                    <img src="imagens/cliente.contato.png" alt="Contato">
+                    <h1 class="h_contato"><strong>Faça seu agendamento
+                      </strong></h2>
+                    
+                    
                 </div>
                 <div class="formulario_contato">
                     <form action="#" method="POST">
@@ -115,6 +83,25 @@
                             <option value="medio">Médio</option>
                             <option value="grande">Grande</option>
                         </select>
+                        <label for="Pelagem">Pelagem:</label>
+                        <select id="pelagem" name="pelagem">
+                            <option value="curto">Curto</option>
+                            <option value="medio">Médio</option>
+                            <option value="grande">Grande</option>
+                        </select>
+                        <label for="Pelagem">Serviço Banho</label>
+                        <select id="pelagem" name="pelagem">
+                            <option value="sem_valor">-----</option>
+                            <option value="banho">Banho</option>
+                            <option value="banho_ofuro">Banho com ofurô</option>
+                        </select>
+                        <label for="Pelagem">Serviço Tosa</label>
+                        <select id="pelagem" name="pelagem">
+                            <option value="sem_valor">-----</option>
+                            <option value="tosa">Tosa</option>
+                           
+                        </select>
+                        
             
                         <label for="mensagem">Sua mensagem:</label>
                         <textarea id="mensagem" name="mensagem" rows="5"></textarea>
