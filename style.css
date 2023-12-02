@@ -2,11 +2,29 @@
     padding: 0;
     text-decoration: none;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu_navegacao{
-    text-align: center;
     background-color: #35DE3B;
+}
+
+.div_navegacao{
+    display: flex;
+    margin-left: 10%;
+    gap: 3%;
+}
+
+.div_navegacao_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paragrafo_navegacao{
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .lista_navegacao{
@@ -20,43 +38,161 @@
     margin: 1%;
 }
 
-.inicio_sobre{
+.texto_imagem_lateralmente{
     display: flex;
     justify-content: center;
     margin: 5%;
 }
 
-.inicio_sobre_texto{
+.texto_lateralmente{
     width: 40%;
     margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
 }
 
-.inicio_produtos{
+.icones{
     display: flex;
     background-color: #35DE3B;
     justify-content: center;
 }
 
-.inicio_produtos_interno{
+.icones_produtos_interno{
     text-align: center;
     margin: 2%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.imagem_inico_produtos_internos{
+.imagem_produtos_internos{
     height: 90%;
     transition: 0.5s;
+    cursor: pointer;
 }
 
-.imagem_inico_produtos_internos:hover{
+.imagem_produtos_internos:hover{
     height: 100%;
+    cursor: pointer;
+}
+
+.avaliacao{
+    width: 20%;
+    border-color: #FF6100;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 2%;
+}
+
+.avaliacao_paragrafo_principal{
+    margin-top: 8%;
+}
+
+.avaliacao_paragrafo_secundario{
+    margin-top: 3%;
+}
+
+.avaliacao_linha{
+    width: 60%;
+    margin-top: 10%;
+}
+
+.avaliacao_estrelas{
+    display: flex;
+    margin-top: 2%;
+}
+
+/*Seção de contato - Inicio*/
+.contato{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.convite_contato{
+    width: 40%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:right;
+}
+
+.h_contato{
+    width: 75%;
+}
+
+.paragrafo_contato{
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+/*Formulário de contato*/
+.formulario_contato{
+    background-color:#f36f1dec;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
 }
 
 
+select{
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input,
+textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
 
 
+/*Aba de Contato*/
+.informacoes_contato{
+    width: 40%;
+}
 
+.paragrafo_informacoes_contato{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
 
 
 

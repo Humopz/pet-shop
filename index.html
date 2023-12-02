@@ -4,36 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>FacilitaPets</title>
+    <title>FacilitaPets - Inicio</title>
 </head>
 <body>
     <nav class="menu_navegacao">
-        <img src="imagens/logotipo.capa.png" alt="Logotipo">
-        <ul class="lista_navegacao">
-                <li class="item_navegacao">Inicio</li>
-                <li class="item_navegacao">Produtos e serviços</li>
-                <li class="item_navegacao">Dúvidas</li>
-                <li class="item_navegacao">Contato</li>
-            </ul>
+        <div class="div_navegacao">
+            <img src="imagens/pet.principal.png" alt="Logotipo">
+            <div class="div_navegacao_logo">
+                <img src="imagens/logotipo.nome.png" alt="Logotipo">
+                <p class="paragrafo_navegacao">Tudo que seu pet precisa com o carinho que ele merece</p>
+            </div>
         </div>
+        <ul class="lista_navegacao">
+            <li class="item_navegacao"><a href="index.html">Inicio</a></li>
+            <li class="item_navegacao"><a href="sobre.html">Sobre nós</a></li>
+            <li class="item_navegacao"><a href="serviços.html">Produtos e serviços</a></li>
+            <li class="item_navegacao"><a href="contatos.html">Contato</a></li>
+        </ul>
     </nav>
     <main>
+        <!--Seção sobre-->
         <section>
-            <div class="inicio_sobre">
-                <div class="inicio_sobre_texto">
+            <div class="texto_imagem_lateralmente">
+                <div class="texto_lateralmente">
                     <h2>Bem-vindo à nossa Pet Shop!</h2>
                     <p>Somos uma renomada pet shop comprometida em proporcionar o melhor cuidado para o seu companheiro 
                         de quatro patas. Nosso objetivo é garantir o bem-estar e a felicidade do seu pet em todos os momentos.
                         Nossa equipe altamente qualificada oferece um atendimento excepcional na clínica, proporcionando 
                         um ambiente acolhedor para que seu animal de estimação se sinta confortável durante consultas e 
-                        procedimentos veterinários. Priorizamos o cuidado individualizado e afetuoso para cada pet que nos 
+                        procedimentos veterinários. 
+                    </p>
+                    <p>Priorizamos o cuidado individualizado e afetuoso para cada pet que nos 
                         visita. Além disso, reconhecendo que o conforto do seu pet é uma prioridade, disponibilizamos um 
                         serviço de atendimento domiciliar. Essa opção evita o estresse do deslocamento e é conduzida por 
                         uma equipe profissional altamente capacitada e constantemente atualizada na área veterinária. 
                         Queremos que seu pet receba a melhor assistência sem sair do ambiente familiar.
                     </p>
+                    <a href="sobre.html"><button>Conheça a nossa história</button></a>
                 </div>
-                <div class="inicio_sobre_imagem">
+                <div class="imagem_lateralmente">
                     <img src="imagens/sobre.png" alt="Sobre">
                     <!--Image by <a href="https://www.freepik.com/free-photo/veterinarian-
                     check-ing-puppy-s-health_10823365.htm#query=atendente%20pet%20shop&position=34&from_
@@ -41,24 +50,170 @@
                 </div>
             </div>
         </section>
+
+        <!--Seção produtos-->
         <section>
-            <div class="inicio_produtos">
-                <div class="inicio_produtos_interno">
-                    <img class="imagem_inico_produtos_internos" src="imagens/logo.tosa.png" alt="Banho e tosa">
+            <div class="icones">
+                <div class="icones_produtos_interno">
+                    <a href="serviços.html"><img class="imagem_produtos_internos" src="imagens/logo.tosa.png" 
+                        alt="Banho e tosa"></a>
                     <p>Banho e tosa</p>
                 </div>
-                <div class="inicio_produtos_interno">
-                    <img class="imagem_inico_produtos_internos" src="imagens/logo.banho.png" alt="Banho Terapêutico com Ofurô">
+                <div class="icones_produtos_interno">
+                    <a href="serviços.html"><img class="imagem_produtos_internos" src="imagens/logo.banho.png" 
+                        alt="Banho Terapêutico com Ofurô"></a>
                     <p>Banho Terapêutico com Ofurô</p>
                 </div>
-                <div class="inicio_produtos_interno">
-                    <img class="imagem_inico_produtos_internos" src="imagens/logo.produtos.png" alt="Produtos">
+                <div class="icones_produtos_interno">
+                    <a href="serviços.html"><img class="imagem_produtos_internos" src="imagens/logo.produtos.png" 
+                        alt="Produtos"></a>
                     <p>Produtos para o seu pet</p>
                 </div>
             </div>
         </section>
+
+        <!--Seção equipe-->
         <section>
+            <div class="texto_imagem_lateralmente">
+                <div class="imagem_lateralmente">
+                    <img src="imagens/equipe.inicio.png" alt="Sobre">
+                    <!--Image by <a href="https://www.freepik.com/free-photo/veterinarian-
+                    check-ing-puppy-s-health_10823365.htm#query=atendente%20pet%20shop&position=34&from_
+                    view=search&track=ais&uuid=d81052cc-0573-459a-8f64-e4b91efda0b8">Freepik</a>-->
+                </div>
+                <div class="texto_lateralmente">
+                    <h2>Experiência e Profissionalismo</h2>
+                    <p>Na Facilita Pet, entendemos que cada animal é único e merece atenção especial. Nossa equipe é 
+                        formada por profissionais comprometidos com o bem-estar e felicidade dos seus pets. Com anos 
+                        de experiência e amor incondicional por animais, cuidamos de cada cliente de quatro patas como 
+                        se fossem da nossa própria família.
+                    </p>
+                    <p>Contamos com uma equipe altamente treinada em cuidados pet, desde tosadores especializados 
+                        até profissionais atenciosos na loja. Nosso compromisso é oferecer serviços de alta qualidade, 
+                        proporcionando momentos agradáveis e saudáveis para os animais.
+                    </p>
+                    <a href="sobre.html"><button>Conheça a nossa equipe</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!--Seção o que falam-->
+        <section>
+            <div class="icones">
+                <!--Avaliação 1-->
+                <div class="avaliacao">
+                    <img src="imagens/cliente1.png" alt="Avaliação">
+                    <!--<a href="https://www.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-
+                        smiling-portrait-isolated-long-hair_9631091.htm#query=pessoa%20rosto&position=19&from_view=search&
+                        track=ais&uuid=9194f7f1-7742-40a2-bb4b-3b244e3778f4">Image by marymarkevich</a> on Freepik-->
+                    <p class="avaliacao_paragrafo_principal"><strong>Gabriela M. - Amor em cada tosa!</strong></p>
+                    <p class="avaliacao_paragrafo_secundario">A Facilita Pet é incrível! Sempre levo meus peludos 
+                        para um banho e tosa e fico 
+                        encantada com o resultado. Eles saem de lá não apenas limpos, mas verdadeiramente 
+                        lindos. Recomendo a todos que amam seus pets!"
+                    </p>
+                    <hr class="avaliacao_linha">
+                    <div class="avaliacao_estrelas">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.cinza.png" alt="">
+                    </div>
+                </div>
+
+                <!--Avaliação 2-->
+                <div class="avaliacao">
+                    <img src="imagens/cliente2.png" alt="Avaliação">
+                    <!--Image by <a href="https://www.freepik.com/free-photo/man-home-taking-selfie-with-his-dog_26212396.
+                        htm#query=homem%20sorrindo%20com%20cachorro&position=35&from_view=search&track=ais&uuid=d8319a20-
+                        67ea-4121-8a30-84faceb653c2">Freepik</a>-->
+                    <p class="avaliacao_paragrafo_principal"><strong>Lucas S. - Banho Terapêutico é Vida!</strong></p>
+                    <p class="avaliacao_paragrafo_secundario">"Meu cãozinho adora os banhos terapêuticos da Facilita Pet! 
+                        Ele fica tão relaxado e tranquilo depois. É perceptível como a equipe se preocupa com o bem-estar 
+                        dos animais. Super recomendo!"
+                    </p>
+                    <hr class="avaliacao_linha">
+                    <div class="avaliacao_estrelas">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                    </div>
+                </div>
+
+                <!--Avaliação 3-->
+                <div class="avaliacao">
+                    <img src="imagens/cliente3.png" alt="Avaliação">
+                    <p class="avaliacao_paragrafo_principal"><strong>Amanda L. - Segurança para gatinhos!</strong></p>
+                    <p class="avaliacao_paragrafo_secundario">"O serviço de banho no meu gato foi excepcional. 
+                        Fico tranquila porque posso acompanhar o processo no estabelecimento, onde tudo é seguro 
+                        para que meu gatinho não escape e com o tempo ele até começou a gostar. Ele volta para casa 
+                        super tranquilo e cheiroso. Recomendo!"
+                    </p>
+                    <hr class="avaliacao_linha">
+                    <div class="avaliacao_estrelas">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                        <img src="imagens/estrela.amarela.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Seção contato-->
+        <section>
+            <div class="contato">
+                <div class="convite_contato">
+                    <h1 class="h_contato"><strong>Entre em contato conosco ou deixe sua mensagem que 
+                        ligaremos para você</strong></h2>
+                    <p class="paragrafo_contato">
+                        Nosso contato: (11) 3864-7956
+                        Facilita Pet
+                        Rua dos Pets, 123 - Bairro dos Animais
+                        Cidade Petópolis - Estado dos Bichos
+                    </p>
+                    <img src="imagens/cliente.contato.png" alt="Contato">
+                </div>
+                <div class="formulario_contato">
+                    <form action="#" method="POST">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
             
+                        <label for="contato">Contato com DDD:</label>
+                        <input type="text" id="contato" name="contato" required>
+            
+                        <label for="horario">Horário de Preferência:</label>
+                        <select id="horario" name="horario">
+                            <option value="horario1">08h - 09h</option>
+                            <option value="horario2">09h - 10h</option>
+                            <option value="horario3">10h - 11h</option>
+                            <option value="horario4">11h - 13h</option>
+                        </select>
+            
+                        <label for="animal">Seu pet é:</label>
+                        <select id="animal" name="animal">
+                            <option value="cachorro">Cachorro</option>
+                            <option value="gato">Gato</option>
+                        </select>
+            
+                        <label for="porte">Porte do pet:</label>
+                        <select id="porte" name="porte">
+                            <option value="pequeno">Pequeno</option>
+                            <option value="medio">Médio</option>
+                            <option value="grande">Grande</option>
+                        </select>
+            
+                        <label for="mensagem">Sua mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 </body>

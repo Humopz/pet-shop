@@ -3,47 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contatos</title>
 </head>
 <body>
-    <h4>
-        Gostaria de falar conosco?
-    </h4>
-    <p>
-        Entre contato conosco e tire suas duvidas ou marque uma consulta
-    </p>
-    <h4>
-        Hórario de atendimento
-    </h4>
-    <p>
-        Atendemos de segunda á sábado das 08h até as 12h
-    </p>
-
-    <h4>
-        Formas de contato
-    </h4>
-    <p>
-        Tel:
-    </p>
-    <p>
-        whatsapp:
-    </p>
-    <p>
-        *inserir email aqui*
-    </p>
-    
-    <main>
-        <div class="div_main">
+    <nav class="menu_navegacao">
         <div class="div_navegacao">
-            <nav>
-                <p> <strong>Menu de navegação</strong></p>
-                <hr>
-                <ul class="lista_menu">
-                    <li><a href="index.html">Inicio</a>
-                    <li><a href="sobre.html">Sobre</a>
-                    <li><a href="serviços.html">Serviços</a></li>
-                </ul>
-            </nav>
+            <img src="imagens/pet.principal.png" alt="Logotipo">
+            <div class="div_navegacao_logo">
+                <img src="imagens/logotipo.nome.png" alt="Logotipo">
+                <p class="paragrafo_navegacao">Tudo que seu pet precisa com o carinho que ele merece</p>
+            </div>
         </div>
+        <ul class="lista_navegacao">
+            <li class="item_navegacao"><a href="index.html">Inicio</a></li>
+            <li class="item_navegacao"><a href="sobre.html">Sobre nós</a></li>
+            <li class="item_navegacao"><a href="serviços.html">Produtos e serviços</a></li>
+            <li class="item_navegacao"><a href="contatos.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contato">
+            <div class="informacoes_contato">             
+                <h1>
+                    Gostaria de falar conosco?
+                </h1>
+                <p class="paragrafo_informacoes_contato">
+                    Entre contato com a nossa equipe e tire suas duvidas ou marque um horário
+                </p>
+                <h2>
+                    Hórario de atendimento
+                </h2>
+                <p class="paragrafo_informacoes_contato">
+                    Atendemos de segunda á sábado das 08h até as 12h
+                </p>
+
+                <h2>
+                    Formas de contato
+                </h2>
+                <p class="paragrafo_informacoes_contato">
+                    Nosso contato: (11) 3864-7956
+                    Facilita Pet
+                    Rua dos Pets, 123 - Bairro dos Animais
+                    Cidade Petópolis - Estado dos Bichos
+                </p>
+                <img src="imagens/pet2.png" alt="Banho">
+            </div>
+            <div class="formulario_contato">
+                <form action="#" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+        
+                    <label for="contato">Contato com DDD:</label>
+                    <input type="text" id="contato" name="contato" required>
+        
+                    <label for="horario">Horário de Preferência:</label>
+                    <select id="horario" name="horario">
+                        <option value="horario1">08h - 09h</option>
+                        <option value="horario2">09h - 10h</option>
+                        <option value="horario3">10h - 11h</option>
+                        <option value="horario4">11h - 13h</option>
+                    </select>
+        
+                    <label for="animal">Seu pet é:</label>
+                    <select id="animal" name="animal">
+                        <option value="cachorro">Cachorro</option>
+                        <option value="gato">Gato</option>
+                    </select>
+        
+                    <label for="porte">Porte do pet:</label>
+                    <select id="porte" name="porte">
+                        <option value="pequeno">Pequeno</option>
+                        <option value="medio">Médio</option>
+                        <option value="grande">Grande</option>
+                    </select>
+        
+                    <label for="mensagem">Sua mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
