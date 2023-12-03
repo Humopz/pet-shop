@@ -267,3 +267,13 @@ button:hover {
     font-size: 1rem;
     color: #666;
 }
+ .formulario_contato_V{
+    
+        background-color:#f36f1dec;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 50%;
+        align-content: center;
+    
+ }
