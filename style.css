@@ -235,7 +235,35 @@ button:hover {
  }
 
 
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 
+.produto {
+    flex: 0 0 calc(30% - 30px); 
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
 
+.produto img {
+    width: 40%; /* Ocupa toda a largura do contêiner */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 
+.produto h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+}
 
+.produto p {
+    font-size: 1rem;
+    color: #666;
+}

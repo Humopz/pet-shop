@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Produtos</title>
+</head>
+<body>
+    <nav class="menu_navegacao">
+            <div class="div_navegacao">
+                <img src="imagens/pet.principal.png" alt="Logotipo">
+                <div class="div_navegacao_logo">
+                    <img src="imagens/logotipo.nome.png" alt="Logotipo">
+                    <p class="paragrafo_navegacao">Tudo que seu pet precisa com o carinho que ele merece</p>
+                </div>
+            </div>
+            <ul class="lista_navegacao">
+                <li class="item_navegacao"><a href="index.html">Inicio</a></li>
+                <li class="item_navegacao"><a href="sobre.html">Sobre nós</a></li>
+                <li class="item_navegacao"><a href="contatos.html">Contato</a></li>
+            </ul>
+        </nav>
+    </nav>
+
+    <main>
+        <div class="produtos">
+            <div class="produto">
+                <img src="imagens/raçãodecachorroF.jpg" alt="Produto 1">
+                <h3>15kg Ração p/ cachorro filhote gran plus</h3>
+                <p>Preço: R$ 160,00</p>
+            </div>
+            <div class="produto">
+                <img src="imagens/raçãodegatoF.jpg" alt="Produto 3">
+                <h3>15kg Ração p/ gatos filhotes gran plus</h3>
+                <p>Preço: R$ 140,00</p>
+            </div>
+            <div class="produto">
+                <img src="imagens/raçãodegato.jpg" alt="Produto 4">
+                <h3>15kg Ração p/ gato adulto gran plus</h3>
+                <p>Preço: R$ 170,00</p>
+            </div>
+            <div class="produto">
+                <img src="imagens/raçao gourmet.webp" alt="Produto 5">
+                 <h3>3kg Ração gourmet p/ cachorro</h3>
+                 <p>Preço: R$ 59,00</p>
+            </div>
+             <div class="produto">
+                <img src="imagens/Tapete_Higiênico_Me.webp" alt="Produto 6">
+                <h3>Tapete higienico 30 unidades</h3>
+                <p>Preço: R$ 77,00</p> 
+                </div>
+                  <div>
+                    <h1 id = "venda" class = "venda">Faça já sua Reserva</h1>
+                    <div class="formulario_contato">
+                        
+                        <form action="" method="POST">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                
+                            <label for="contato">Contato com DDD:</label>
+                            <input type="text" id="contato" name="contato" required>
+                
+                
+                            <label for="RaçãoC">Ração Cachorro</label>
+                            <select id="RaçãoC" name="RaçãoC">
+                                <option value="sem_valor">---</option>
+                                <option value="V0">1</option>
+                                <option value="V1">2</option>
+                                <option value="V2">3</option>
+                            </select>
+                
+                            <label for="RaçãoCF">Ração Cachorro filhote</label>
+                            <select id="RaçãoCF" name="RaçãoCF">
+                                <option value="sem_valor">---</option>
+                                <option value="medio">Médio</option>
+                                <option value="grande">Grande</option>
+                            </select>
+                            <label for="SacheC">Sache Cachorro </label>
+                            <select id="SacheC" name="SacheC">
+                                <option value="sem_valor">---</option>
+                                <option value="medio">Médio</option>
+                                <option value="grande">Grande</option>
+                            </select>
+                            <label for="RaçãoG">Ração de gato</label>
+                            <select id="RaçãoG" name="RaçãoG">
+                                <option value="sem_valor">---</option>
+                                <option value="V0">1</option>
+                                <option value="V1">2</option>
+                                <option value="V2">3</option>
+                            </select>
+                            <label for="RaçãoGF">Ração gato filhote</label>
+                            <select id="RaçãoGF" name="RaçãoGF">
+                                <option value="sem_valor">---</option>
+                                <option value="V0">1</option>
+                                <option value="V1">2</option>
+                                <option value="V2">3</option>
+                            </select>
+                            <label for="sacheG">Sache Gato</label>
+                            <select id="sacheG" name="sacheG">
+                                <option value="sem_valor">---</option>
+                                <option value="V0">1</option>
+                                <option value="V1">2</option>
+                                <option value="V2">3</option>
+                               
+                            </select>
+                            
+                
+                            <label for="mensagem">Sua mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </section> 
+ 
+    </main>
+</body>
+</html>
