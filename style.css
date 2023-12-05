@@ -38,10 +38,30 @@
     margin: 1%;
 }
 
+.botao_nav{
+    background-color: #FF6100;
+    color: #fff;
+    font-size: large;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.botao_nav:hover {
+    background-color: yellow;
+    color: rgba(0, 0, 0, 0.774);
+    cursor: pointer;
+}
+
 .texto_imagem_lateralmente{
     display: flex;
     justify-content: center;
     margin: 5%;
+}
+
+.botao_alinhado{
+    margin-top: 20%;
+    font-size: large;
 }
 
 .texto_lateralmente{
@@ -53,17 +73,54 @@
     gap: 10%;
 }
 
+.div_alinhada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h_alinhado{
+    margin-bottom: 2%;
+}
+
+.imagem_alinhada{
+    width: 100%;
+}
+
+.linha_meio{
+    width: 60%;
+    margin: auto;
+    border-color: #FF6100;
+}
+
+.h_meio{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.sessao_icones{
+    text-align: center;
+    background-color: #35DE3B;
+    padding: 4%;
+}
+
+.div_icones_externa{
+    background-color: #35DE3B;
+    text-align: center;
+    padding-top: 3%;
+}
+
 .icones{
     display: flex;
-    background-color: #35DE3B;
     justify-content: center;
+    background-color: #35DE3B;
 }
 
 .icones_produtos_interno{
     text-align: center;
-    margin: 2%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-right: 2%;
 }
 
 .imagem_produtos_internos{
@@ -79,6 +136,10 @@
 
 .avaliacao{
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     border-color: #FF6100;
     background-color: white;
     border-style: solid;
@@ -91,6 +152,7 @@
     margin-top: 3%;
     margin-bottom: 3%;
     margin-right: 2%;
+    vertical-align: middle;
 }
 
 .avaliacao_paragrafo_principal{
@@ -101,14 +163,8 @@
     margin-top: 3%;
 }
 
-.avaliacao_linha{
-    width: 60%;
-    margin-top: 10%;
-}
-
 .avaliacao_estrelas{
-    display: flex;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 
 /*Seção de contato - Inicio*/
@@ -176,11 +232,11 @@ button {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #5bd461;
+    cursor: pointer;
 }
 
 
@@ -277,3 +333,26 @@ button:hover {
         align-content: center;
     
  }
+
+ .div_footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f38541;
+    padding: 5%;
+ }
+
+ .div_footer_menu{
+    width: 40%;
+ }
+
+ .div_footer_mapa{
+    width: 40%;
+ }
+
+ .menu_footer{
+    font-size: large;
+    text-decoration: none;
+    list-style: none;
+ }
+
+ .a { color: inherit; } 
